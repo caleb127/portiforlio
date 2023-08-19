@@ -7,5 +7,17 @@
     padding-right: 140px;
     text-align: right;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 100px;
+    font-size: 60px;
+}
+.anim-typewriter{
+    width:0;
+}
+#dev{
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box;
+    margin: 0 auto;
 }
