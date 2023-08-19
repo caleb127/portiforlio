@@ -98,22 +98,28 @@
   --tw-backdrop-sepia:  ;
 }
 
+.p-36{
+  padding: 9rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font-serif{
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+html{
+  background-color: black;
+  color:white;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
 #name{
-  padding-top: 60px;
+  overflow: hidden;
+  padding-top: 160px;
   padding-right: 140px;
   text-align: right;
-  font-family: 'Bebas Neue', sans-serif;
   font-size: 60px;
-}
-
-.anim-typewriter{
-  width:0;
-}
-
-#dev{
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);
-  box-sizing:content-box;
-  margin: 0 auto;
 }

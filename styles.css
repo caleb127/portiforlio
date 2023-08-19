@@ -2,22 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html{
+    background-color: black;
+    color:white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
 #name{
-    padding-top: 60px;
+    overflow: hidden;
+    padding-top: 160px;
     padding-right: 140px;
     text-align: right;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 60px;
-}
-.anim-typewriter{
-    width:0;
-}
-#dev{
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    -webkit-box-sizing:content-box;
-    box-sizing:content-box;
-    margin: 0 auto;
+    font-size: 60px;   
 }
