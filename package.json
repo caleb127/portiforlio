@@ -10,9 +10,12 @@
     "webpack": "^5.88.2"
   },
   "scripts": {
-    
     "go": "tailwindcss -i ./styles.css -o ./main.css",
     "wa": "tailwindcss -i ./styles.css -o ./main.css --watch",
-    "start": "node main.js"
+    "start": "node main.js",
+    "build": "webpack --watch"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
   }
 }

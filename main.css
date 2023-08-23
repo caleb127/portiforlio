@@ -98,16 +98,34 @@
   --tw-backdrop-sepia:  ;
 }
 
+.relative{
+  position: relative;
+}
+
+.top-28{
+  top: 7rem;
+}
+
+.border-2{
+  border-width: 2px;
+}
+
+.border-rose-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(244 63 94 / var(--tw-border-opacity));
+}
+
+.object-right{
+  -o-object-position: right;
+     object-position: right;
+}
+
 .p-36{
   padding: 9rem;
 }
 
 .text-center{
   text-align: center;
-}
-
-.font-serif{
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 html{
@@ -119,7 +137,33 @@ html{
 #name{
   overflow: hidden;
   padding-top: 160px;
-  padding-right: 140px;
-  text-align: right;
+  padding-right: 90px;
+  text-align: center;
   font-size: 60px;
+}
+
+.main img{
+  width:35%;
+  height:35%;
+  padding-right: 15px;
+}
+
+.main{
+  width:100%;
+  height:60%;
+  margin-top: 100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 3px solid dodgerblue;
+  border-radius: 50%;
+  pointer-events: none;
 }
